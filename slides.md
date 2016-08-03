@@ -354,6 +354,38 @@ Included:
 
 ---
 
+![fit](http://www.internationalhealth.info/wp-content/uploads/2015/11/fatigue.jpg)
+
+---
+
+# JavaScript Fatigue = we're figuring this out
+
+---
+
+# _You_ have control here.
+
+---
+
+# Find your preferred tool set.
+
+---
+
+# Browserify, Webpack, jspm, others?
+
+---
+
+# ES2015? Babel?
+
+---
+
+# Stick with your toolchain
+
+---
+
+# Evaluate every now and then
+
+---
+
 # The baseline
 
 ---
@@ -378,6 +410,18 @@ is the baseline
 
 ---
 
+# This should _always_ be the baseline
+
+---
+
+# Especially for beginners
+
+---
+
+# And this is how we have to teach JavaScript
+
+---
+
 # Layer your tools as you need to
 
 ---
@@ -386,13 +430,63 @@ is the baseline
 
 ---
 
-## Finding the right abstraction
+# Finding the right abstraction
 
 --- 
+
+# React is an abstraction
+
+---
+
+# The price of abstractions is a little indirection
+
+---
+
+# The payoff is quicker, nicer and _more enjoyable_ development
+
+---
+
+# _Nothing_ is free
+
+---
 
 # Performance
 
 ---
+
+![fit](https://d17oy1vhnax1f7.cloudfront.net/items/3h1w0E1C3t2n0F2P0a2v/Screen%20Shot%202016-08-03%20at%2008.34.42.png)
+
+https://developers.google.com/web/tools/chrome-devtools/profile/evaluate-performance/rail?hl=en
+
+---
+
+# Paul Lewis: RAIL in the real world [^5]
+
+[^5]: https://www.youtube.com/watch?v=iIV1xPFXmBs
+
+---
+
+# Progressive Web Apps
+
+---
+
+![fit](https://cl.ly/2f1i3u013D3o/Screen%20Shot%202016-08-03%20at%2008.39.54.png)
+
+https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
+
+---
+
+:+1: Load Instantly (Service Worker)
+:+1: Add to Home Screen
+:+1: Web push notifications
+:+1: Secure
+:+1: Fast
+:+1: Responsive
+
+https://developers.google.com/web/progressive-web-apps/
+
+---
+
 
 # Server Side
 
