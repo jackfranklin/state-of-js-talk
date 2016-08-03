@@ -1,3 +1,5 @@
+slidenumbers: true
+
 # The State of JavaScript
 
 ---
@@ -29,6 +31,10 @@ this.setState('javascript', talk());
 # The State of JavaScript
 
 ---
+
+_Or_: a series of things that I've been thinking about.
+
+----
 
 # :+1:
 
@@ -240,6 +246,52 @@ http://www.2ality.com/2015/11/tc39-process.html
 
 ---
 
+# Be wary of depending on Babel plugins for early stage proposals
+
+Or at least, be prepared for a rewrite.
+
+---
+
+# Do you need Babel?
+
+---
+
+- Edge 14: 90%
+- Chrome 52 / Opera 39: 98%
+- FF 49: 93%
+- Safari 10: 99%
+- Node 6: 93%
+
+---
+
+# Node 6: (nearly) full ES2015 support
+
+`babel-preset-node6`
+
+OR: no Babel depending on what features you need.
+
+---
+
+# Will we be using transpilers forever?
+
+---
+
+# If you want to stick right on the cutting edge and use features before they are in browsers, yes.
+
+---
+
+# If you're happy to use a subset of new features, or lucky enough to target "modern" browsers, no.
+
+---
+
+# Once ES2015 is fully supported across all browsers most people build for, less people will use transpilers
+
+---
+
+#`<br />`
+
+---
+
 # Modules!
 
 ---
@@ -346,7 +398,22 @@ Included:
 
 - your code
 - Just `lodash.map!`
-```
+
+---
+
+# We're not there yet
+
+ES2015 module support is lacking across _everywhere_.
+
+---
+
+# A fully ES2015 module web will be a much better one.
+
+---
+
+![inline](https://cl.ly/082i1b2b3X2J/Screen%20Shot%202016-08-03%20at%2009.45.18.png)
+
+https://github.com/rollup/rollup
 
 ---
 
@@ -454,7 +521,7 @@ is the baseline
 
 ---
 
-![fit](https://d17oy1vhnax1f7.cloudfront.net/items/3h1w0E1C3t2n0F2P0a2v/Screen%20Shot%202016-08-03%20at%2008.34.42.png)
+![inline](https://d17oy1vhnax1f7.cloudfront.net/items/3h1w0E1C3t2n0F2P0a2v/Screen%20Shot%202016-08-03%20at%2008.34.42.png)
 
 https://developers.google.com/web/tools/chrome-devtools/profile/evaluate-performance/rail?hl=en
 
@@ -470,7 +537,7 @@ https://developers.google.com/web/tools/chrome-devtools/profile/evaluate-perform
 
 ---
 
-![fit](https://cl.ly/2f1i3u013D3o/Screen%20Shot%202016-08-03%20at%2008.39.54.png)
+![inline](https://cl.ly/2f1i3u013D3o/Screen%20Shot%202016-08-03%20at%2008.39.54.png)
 
 https://addyosmani.com/blog/getting-started-with-progressive-web-apps/
 
@@ -487,8 +554,102 @@ https://developers.google.com/web/progressive-web-apps/
 
 ---
 
-
-# Server Side
+# Offering a great mobile experience on the web
 
 ---
+
+## Flipkart, India’s largest e-commerce site, decided to combine their web presence and native app into a Progressive Web Application that has resulted in a 70% increase in conversions. [^6]
+
+[^6]: https://developers.google.com/web/showcase/2016/flipkart
+
+---
+
+# Server Side Rendering
+
+---
+
+![inline](https://cl.ly/0A3v0N3M2e2b/Screen%20Shot%202016-08-03%20at%2009.38.31.png)
+
+---
+
+# GoCardless is a universal ReactJS application [^7]
+
+[^7]: https://gocardless.com/blog/how-we-built-the-new-gocardless.com/
+
+---
+
+> Once the initial page is displayed, a request is made to fetch the rest of the site's React app.
+
+---
+
+> All subsequent navigation is blindingly fast, not suffering the latency of HTTP requests since the browser already has the whole app.
+
+---
+
+> If the user does not have JS, they still experience the fully rendered page and only miss out on the fast navigation.
+
+---
+
+- Ember Fastboot
+- Angular 2 Universal
+- And others
+
+(This isn't for every app!)
+
+---
+
+![inline](https://cl.ly/2H1h1p3k0331/Screen%20Shot%202016-08-03%20at%2009.41.48.png)
+
+https://www.youtube.com/watch?v=Bb0Uk8c6ltQ
+
+---
+
+# Is the web getting more complicated?
+
+---
+
+# It _depends_
+
+---
+
+# Is it hard work to build a performant, mobile friendly, offline first web application?
+
+---
+
+# Yes
+
+---
+
+# But that's exciting!
+
+---
+
+# No one is making you build complex, progressive, offline first apps in the browser.
+
+---
+
+# But there's lots of great reasons to
+
+---
+
+# And if you spend the time and energy.
+
+---
+
+# You'll get your rewards.
+
+---
+
+# And have _loads_ of fun in the meantime!
+
+---
+
+# Thanks
+
+@Jack_Franklin
+
+javascriptplayground.com
+
+---
+
 
